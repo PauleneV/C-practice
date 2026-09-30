@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{ 
+    int num;
+    int a;
+    printf("i will guess the number you are thinking of\n between 1 to 100  ");
+    printf("type in the number and press enter\n");
+    scanf("%d", &num);
+    printf("i figured it!! \n the number is... \n drumroll \n it's %d ", num);
+    printf("am i right???\n");
+    printf("type 1 for yes 0 for no\n");
+    scanf("%d", &a);
+    if (a == 1)
+    {
+        printf("i knew it!!\n");
+    }
+    else
+    {
+        printf("oops!!\n");
+    }
+    return 0;
+}
