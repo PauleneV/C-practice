@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char name[50];
+    char g;
+    int a, m;
+
+    printf("what is your name? ");
+    scanf("%49s", name);
+    printf("hello %s\n", name);
+
+    printf("what is your age? ");
+    scanf("%d", &a);
+    printf("so...you are %d years old\n", a);
+
+    printf("what is your gender?,\n type m for male and f for female: ");
+    scanf(" %c", &g);
+
+    if (g == 'm')
+        printf("so ur a dude\n");
+    else if (g == 'f')
+        printf("hii girilepop\n");
+    else
+        printf("invalid gender input\n");
+
+    printf("enter your marks: ");
+    scanf("%d", &m);
+
+    if (m >= 90)
+        printf("you got an A*\n");
+    else if (m >= 80)
+        printf("you got an A\n");
+    else if (m >= 70)
+        printf("you got a B\n");
+    else if (m >= 60)
+        printf("you got a C\n");
+    else if (m >= 50)
+        printf("you got a D\n");
+    else
+        printf("you failed\n");
+
+    return 0;
+}
