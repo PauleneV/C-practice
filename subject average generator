@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int p,c,m,total,avg;
+    printf("enter physics marks: ");
+    scanf("%d", &p);
+    printf("enter chemistry marks: ");
+    scanf("%d", &c);
+    printf("enter mathematics marks: ");
+    scanf("%d", &m);
+    total=p+c+m;
+    avg=total/3;
+    printf("your average is %d",avg);
+    return 0;
+}
