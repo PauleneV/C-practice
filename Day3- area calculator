@@ -1,0 +1,17 @@
+#include<stdio.h>
+ #include<math.h>
+ int main()
+ {int r,l,w,areac,cir,area;
+printf("enter the radius-");
+scanf("%d",&r);
+cir=2*3.14*r;
+areac=3.14*r*r;
+printf("area of the circle-%d \ncircumfrence of the circle-%d",areac,cir);
+printf("\nenter length-");
+scanf("%d",&l);
+printf("\nenter width-");
+scanf("%d",&w);
+area=l*w;
+printf("\narea-%d",area);
+return 0;
+}
